@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fdecef;
+}
+
+.container {
+  text-align: center;
+}
+
+.local-gif, .gif-result {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.question {
+  font-size: 24px;
+  margin: 20px 0;
+  color: #333;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.yes-btn {
+  background-color: #ff69b4;
+  color: white;
+}
+
+.no-btn {
+  background-color: #999;
+  color: white;
+  position: relative;
+}
+
+.hidden {
+  display: none;
+}
